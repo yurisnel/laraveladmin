@@ -1,0 +1,1 @@
+<x-data-line :label="__('validation.attributes.NAME')" :value="$item->NAME" />

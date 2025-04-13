@@ -1,0 +1,1 @@
+__('validation.attributes.NAME')

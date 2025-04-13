@@ -1,0 +1,85 @@
+.error {
+    color: #f1416c;
+}
+
+.form-label {
+    text-transform: capitalize;
+}
+.detail-line:not(:first-of-type){
+    margin-top: 1.75rem !important;
+}
+.detail-label{
+    color: var(--kt-text-muted) !important;
+    font-weight: 500 !important;
+    text-transform: capitalize;
+}
+.detail-value{
+    color: var(--kt-text-gray-800) !important;
+    font-weight: 600 !important;
+    font-size: 1.075rem !important;
+}
+
+.modal-body {
+    overflow: auto;
+}
+
+.modal-content {
+    margin: 0 auto;
+}
+
+li.break {
+    flex-basis: 100%;
+}
+
+.no-cursor-pointer {
+    cursor: default !important;
+}
+
+.alert *:first-letter,
+.swal2-html-container:first-letter {
+    text-transform: capitalize;
+}
+
+#my-dropzone.dropzone .dz-preview {
+    min-height: auto;
+    position: relative;
+}
+
+#my-dropzone.dropzone .dz-preview .dz-details {
+    position: initial;
+    background-color: initial;
+}
+
+#my-dropzone.dropzone .dz-preview .dz-details .dz-filename span {
+    border: none;
+}
+
+#my-dropzone.dropzone .dz-preview .dz-details .dz-filename span,
+.dropzone .dz-preview .dz-details .dz-size span {
+    background-color: initial;
+}
+
+#my-dropzone.dropzone .dz-remove {
+    top: 10px;
+}
+
+/*
+ul.treeview,
+ul.treeview ul {
+    list-style-type: none;
+}
+ul.treeview .form-label {
+    cursor: pointer;
+}
+*/
+.jstree-default .jstree-clicked {
+    background: rgb(5 114 156 / 26%) !important
+}
+
+.jstree-default .jstree-hovered {
+    background: #05729c !important;
+}
+
+.select2-results__options i {
+    font-size: 1.3rem
+}
