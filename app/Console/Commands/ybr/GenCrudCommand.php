@@ -20,7 +20,7 @@ class GenCrudCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'ybr:gen-crud {model} {--force}';
+    protected $signature = 'ybr:gen-crud {tablename} {--force}';
 
     /**
      * The console command description.
@@ -46,11 +46,11 @@ class GenCrudCommand extends Command
      */
     public function handle()
     {
-        $model = $this->argument('model');
+        $tablaName = $this->argument('tablename');
         $force = $this->option('force');
 
         // $this->info($this->laravel->basePath());
-        $this->gencode($model, $force);
+        $this->gencode($tablaName, $force);
     }
 
 
