@@ -81,13 +81,13 @@ class Table
 
                 $this->tableTh .= $sepItem . $field->getTh($tplVersion);
                 $this->tableTd .= $sepItem . $field->getTd($tplVersion);
+               
+                $sepItem = ", "; // "\n"
             }
 
             if (!in_array($fieldName, ['deleted_at'])) {
                 $this->details .= $field->getDetails($tplVersion);
-            }
-
-            $sepItem = ", "; // "\n"
+            }         
 
 
             $this->constFields .= $field->getConstField($this->tbname);
